@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Courtney Corlew</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+            <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <a class="navbar-brand" href="#">Courtney Corlew</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> 
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Work</a>
+                </li>                
+                </ul>
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>   
+    </div>
+
+    <div class="wrapper">
+        <div class="header">
+            <p>
+                <span class="headerText">
+                    — Say hi! Let's connect.
+                </span>
+            </p>
+            <p>
+                Find me on social media, use the contact form below, or send an email to <a href="mailto:contact@courtneycorlew.com">contact@courtneycorlew.com</a>.
+            </p>
+            <a href="https://github.com/courtneycorlew" class=" icon ion-social-github-outline" target="_blank"></a>
+            <a href="https://www.instagram.com/courtneycorlew/" class="icon ion-social-instagram-outline" target="_blank"></a>
+            <a href="https://twitter.com/courtneyecorlew" class="icon ion-social-twitter-outline" target="_blank"></a>
+            <a href="https://www.youtube.com/c/courtneycorlew?sub_confirmation=1" class="icon ion-social-youtube-outline" target="_blank"></a>
+        </div>
+
+        <form class="contactForm formSettings" method="POST" action="https://formspree.io/contact@courtneycorlew.com">
+            <div class="form-group ">
+                <label for="exampleInputPassword1">Full Name</label>
+                <input type="text" class="form-control" id="Text" placeholder="Name" name="name">
+            </div>
+            <div class="form-group">  
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Saying hello? Have a question?</label>
+                <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Type your message here!"></textarea>
+                </div>
+            
+            <button type="submit" class="btn btn-outline-info float-right">Submit</button>
+        </form>
+        
+    </div>
+</body>
+</html>

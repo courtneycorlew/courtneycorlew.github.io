@@ -1,0 +1,121 @@
+a, a:hover {
+    text-decoration: none;
+}
+
+
+
+.headerText {
+    font-family: europa;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.7em;
+   
+}
+
+.header {
+    text-align: center;
+    width: 80%;
+    margin: 10% auto;
+
+}
+
+.wrapper {
+    width: 90%;
+    margin: 7% auto;
+}
+
+.ion-social-github-outline, .ion-social-instagram-outline, .ion-social-twitter-outline, .ion-social-youtube-outline, .ion-ios-email-outline {
+    font-size: 32px;
+    padding: 2%;
+    color: #000;
+}
+
+.formSettings {
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+.aboutMeImage {
+    margin: 0 auto;
+    display: block;
+    width: 70%;
+}
+
+
+.aboutMe {
+    width: 50%;
+    margin: 5% auto;
+    text-align: center;
+
+}
+
+.button {
+    border: 1px solid black;
+}
+.button:hover {
+    background-color: black;
+
+}
+
+.button a {
+    color: black;
+}
+.button:hover a {
+    color: white;
+}
+
+.imageRow {
+    margin: 5% auto;
+}
+
+.jumbotron {
+    background-color: #fff;
+
+}
+
+
+.projectButton {
+    background-color: #fff;
+    border-top: 2px solid salmon;
+
+}
+
+.projectButton a {
+    color: #000;
+}
+.projectButton:hover {
+    background-color: salmon;
+}
+.projectButton:hover a {
+    color: #fff;
+}
+
+
+
+@media screen and (min-aspect-ratio: 1/1) and (min-width: 1920px) {
+    .headerText  {
+        font-size: 60px;
+    }
+  
+}
+@media screen and (max-width: 1920px) and (min-aspect-ratio: 1/1) and (min-width: 1024px) {
+    .headerText {
+    font-size: 3.125vw;
+    }
+}
+@media screen and (max-aspect-ratio: 1/1) and (max-width: 1920px) and (min-width: 1024px) {
+    .headerText {
+        font-size: 3.125vw;
+        }
+}
+@media screen and (max-aspect-ratio: 1/1) and (max-width: 1024px) {
+    .headerText {
+        font-size: 32px;
+        }
+}
+@media screen and (max-width: 1024px) and (min-aspect-ratio: 1/1) {
+    .headerText {
+    font-size: 32px;
+    }
+}
