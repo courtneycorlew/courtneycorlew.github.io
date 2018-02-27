@@ -1,5 +1,10 @@
-a, a:hover {
+a:hover {
     text-decoration: none;
+    color:salmon;
+}
+
+a {
+    color: salmon
 }
 
 
@@ -24,7 +29,7 @@ a, a:hover {
     margin: 7% auto;
 }
 
-.ion-social-github-outline, .ion-social-instagram-outline, .ion-social-twitter-outline, .ion-social-youtube-outline, .ion-ios-email-outline {
+.ion-social-github-outline, .ion-social-instagram-outline, .ion-social-twitter-outline, .ion-social-youtube-outline, .ion-ios-email-outline, .ion-social-linkedin-outline {
     font-size: 32px;
     padding: 2%;
     color: #000;
@@ -91,8 +96,6 @@ a, a:hover {
     color: #fff;
 }
 
-
-
 @media screen and (min-aspect-ratio: 1/1) and (min-width: 1920px) {
     .headerText  {
         font-size: 60px;
@@ -103,19 +106,27 @@ a, a:hover {
     .headerText {
     font-size: 3.125vw;
     }
+  
 }
 @media screen and (max-aspect-ratio: 1/1) and (max-width: 1920px) and (min-width: 1024px) {
     .headerText {
         font-size: 3.125vw;
         }
+      
 }
 @media screen and (max-aspect-ratio: 1/1) and (max-width: 1024px) {
     .headerText {
         font-size: 32px;
         }
+        .wrapper {
+            margin-top: 15%;
+        }
 }
 @media screen and (max-width: 1024px) and (min-aspect-ratio: 1/1) {
     .headerText {
     font-size: 32px;
+    }
+    .wrapper {
+        margin-top: 15%;
     }
 }
